@@ -1,0 +1,64 @@
+body {
+	position: relative;
+}
+
+#koala {
+	position: absolute;
+}
+
+.keyboard-arrow {
+	position: relative;
+	float: right;
+	margin-right: 170px;
+}
+
+.keyboard-arrow div {
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.is-top {
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid black;
+}
+
+.is-bottom {
+	top: 85px;
+	border-top: 25px solid black;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+}
+
+.is-right {
+	top: 30px;
+	left: 60px;
+	border-top: 25px solid transparent;
+	border-left: 25px solid black;
+	border-bottom: 25px solid transparent;
+}
+
+.is-left {
+	top: 30px;
+	right: 9px;
+	border-top: 25px solid transparent;
+	border-right: 25px solid black;
+	border-bottom: 25px solid transparent;
+}
+
+.border-top-active {
+	border-bottom-color: red !important;
+}
+
+.border-bottom-active {
+	border-top-color: red !important;
+}
+
+.border-left-active {
+	border-right-color: red !important;
+}
+
+.border-right-active {
+	border-left-color: red !important;
+}
